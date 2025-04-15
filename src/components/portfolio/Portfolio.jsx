@@ -16,7 +16,7 @@ const projects = [
     img: '/portfolio.png',
     title: 'Portfolio Website',
     desc: 'A responsive, web-based 3D animated portfolio built with React, Three.js, & Motion. This project showcases interactive 3D visuals, smooth animations, and a sleek, modern UI. Fully responsive, it adapts seamlessly to all screen sizes, offering an immersive and engaging user experience to highlight my skills and projects.',
-    link: 'https://spotify-clone-shobhit.netlify.app/',
+    link: 'https://react-portfolio-shobhit.netlify.app/',
   }
 ]
 
