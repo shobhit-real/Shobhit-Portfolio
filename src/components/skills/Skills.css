@@ -1,0 +1,80 @@
+.skills {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.skills-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sTitle {
+    font-size: 88px;
+    margin-bottom: 20px;
+}
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-card {
+    width: 61%;
+    padding: 25px;
+    border-radius: 22px;
+    background-color: #384346;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.skill-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-icon img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.skill-info h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.skill-info h3{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.skill-card:nth-child(1) .skill-icon {
+    background-color: rgb(184, 110, 110);
+}
+.skill-card:nth-child(2) .skill-icon {
+    background-color: rgb(92, 162, 94);
+}
+
+.skill-card:nth-child(3) {
+    img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+    cursor: default;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+    width: max-content;
+}

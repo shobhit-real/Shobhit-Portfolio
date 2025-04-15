@@ -1,0 +1,140 @@
+.hero {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.hero-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 80%;
+    width: max-content;
+
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-title {
+    margin-top: 50px;
+    font-size: 99px;
+    color: rgb(197, 254, 188);
+}
+
+.hero-title span {
+    color: white;
+}
+
+.hero-desc {
+    width: 40%;
+}
+.hero-desc p {
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 16px 0;
+}
+
+.exp-list {
+    display: flex;
+    gap: 8px;
+}
+
+.exp-list img {
+    width: 38px;
+    height: 38px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.scroll {
+    margin-bottom: 50px;
+    width: max-content;
+}
+
+.hero-box.right {
+    align-items: end;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 16px;
+    background-color: #232225;
+    border-bottom-right-radius: 10px;
+}
+.socials img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+.bubbleContainer{
+    width: 50%;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: end;
+}
+.bubble{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #555;
+    padding: 24px;
+    font-size: 15px;
+    border-radius: 20px 0px 20px 20px;
+}
+.bubbleContainer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.contactLink {
+    margin-bottom: 50px;
+}
+.contactButton {
+    position: relative;
+}
+.circeText text {
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+.arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

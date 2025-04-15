@@ -1,0 +1,48 @@
+@media (max-width: 1280px) {
+    form {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .contact{
+        gap: 35px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        gap: 25px;
+        flex-direction: column;
+    }
+    .cSection {
+        width: 100%;
+    }
+    .cSection:first-child {
+        height: 70%;
+    }
+    .cSection:last-child {
+        height: 30%;
+    }
+}
+@media (max-width: 390px) {
+    .contact {
+        gap: 15px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    label {
+        font-size: 12px;
+    }
+    .form-button {
+        padding: 12px;
+    }
+    input, textarea {
+        padding: 10px;
+    }
+    textarea {
+        height: 15vh;
+    }
+}
