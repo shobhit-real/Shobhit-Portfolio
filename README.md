@@ -4,7 +4,7 @@ A responsive, web-based 3D portfolio built with **React**, **Three.js**, and **F
 This project showcases interactive 3D visuals, smooth animations, and a modern, minimalist UI to highlight my skills and projects in an engaging and immersive way.
 
 
-**🚀 Features**
+## 🚀 Features
 
 - Fully responsive design
 - Smooth page transitions & animations
